@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-main fill-height justify-center class="home-main">
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -78,7 +78,7 @@
         </v-row>
       </v-col>
     </v-row>
-  </v-container>
+  </v-main>
 </template>
 
 <script>
@@ -139,3 +139,9 @@ export default {
   })
 };
 </script>
+
+<style scoped>
+.home-main {
+  text-align: center;
+}
+</style>
