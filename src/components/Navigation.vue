@@ -6,7 +6,13 @@
         <h1 class="hidden-md-and-up title-text">Migraine Hospital</h1>
       </div>
 
+      
+
       <v-spacer></v-spacer>
+
+      <v-btn class="nav-button hidden-sm-and-down"><router-link to="/">Home</router-link></v-btn>
+      <v-btn class="nav-button hidden-sm-and-down"><router-link to="/about">About</router-link></v-btn>
+      <v-btn class="nav-button hidden-sm-and-down"><router-link to="/contact">Contact</router-link></v-btn>
 
       <v-btn
         href="#"
@@ -33,5 +39,11 @@ export default {
 <style scoped>
 .title-text {
     font-size: 1em;
+}
+a {
+    text-decoration: none;
+}
+.nav-button {
+    margin-right: 1%;
 }
 </style>
