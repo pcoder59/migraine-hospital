@@ -1,5 +1,6 @@
 <template>
     <v-app-bar app color="primary" dark>
+        <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer=!drawer"></v-app-bar-nav-icon>
       <div class="d-flex align-center">
         <h1 class="hidden-sm-and-down">Migraine Hospital</h1>
         <h1 class="hidden-md-and-up title-text">Migraine Hospital</h1>
@@ -20,7 +21,12 @@
 
 <script>
 export default {
-    
+    name: "Navigation",
+    data() {
+        return {
+            drawer: false
+        }
+    }
 }
 </script>
 
