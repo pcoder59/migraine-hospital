@@ -26,6 +26,7 @@
         <v-spacer></v-spacer>
 
         <v-btn class="nav-button hidden-sm-and-down"><router-link to="/">Home</router-link></v-btn>
+        <v-btn class="nav-button hidden-sm-and-down"><router-link to="/services">Services</router-link></v-btn>
         <v-btn class="nav-button hidden-sm-and-down"><router-link to="/about">About</router-link></v-btn>
         <v-btn class="nav-button hidden-sm-and-down"><router-link to="/contact">Contact</router-link></v-btn>
 
@@ -51,6 +52,10 @@ export default {
                 {
                     title: "Home",
                     link: "/"
+                },
+                {
+                    title: "Services",
+                    link: "/services"
                 },
                 {
                     title: "About",
