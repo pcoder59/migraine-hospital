@@ -21,10 +21,15 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
+
 export default {
     data() {
         return {
             name: null,
+            sending: false,
+            sent: false,
+            error: false,
             email: null,
             contact: null,
             message: null,
@@ -44,17 +49,6 @@ export default {
             messageRules: [
                 v => !!v || "Message is Required"
             ]
-        }
-    },
-    computed: {
-        sending: function() {
-            return false;
-        },
-        sent: function() {
-            return false;
-        },
-        error: function() {
-            return false;
         }
     },
     methods: {
