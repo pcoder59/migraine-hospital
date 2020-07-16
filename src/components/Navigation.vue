@@ -31,7 +31,7 @@
         <v-btn class="nav-button hidden-sm-and-down"><router-link to="/contact">Contact</router-link></v-btn>
 
         <v-btn
-            href="#"
+            href="https://www.facebook.com/manojannanadu/"
             target="_blank"
             text
         >

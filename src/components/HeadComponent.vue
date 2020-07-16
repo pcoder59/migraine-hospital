@@ -1,6 +1,7 @@
 <template>
     <v-container fluid fill-height justify-center class="home-main">
-      <v-row class="text-center">
+      <img src="../assets/images/banner.jpg" width="100%" height="100%">
+      <!--<v-row class="text-center">
         <v-col cols="12">
           <v-img
             :src="require('../assets/logo.png')"
@@ -23,7 +24,7 @@
             >
           </p>
         </v-col>
-      </v-row>
+      </v-row>-->
     </v-container>
 </template>
 
@@ -34,11 +35,5 @@ export default {
 </script>
 
 <style scoped>
-.home-main {
-  text-align: center;
-  background: url("https://source.unsplash.com/zbpgmGe27p8");
-  background-size: cover;
-  width: 100%;
-  height: 50%;
-}
+
 </style>
